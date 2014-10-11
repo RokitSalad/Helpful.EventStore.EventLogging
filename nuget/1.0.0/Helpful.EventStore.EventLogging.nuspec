@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Helpful.EventStore.EventLogging</id>
+    <version>1.0.0</version>
+    <title>Helpful.EventStore.EventLogging</title>
+    <authors>RokitSalad</authors>
+    <owners>RokitSalad</owners>
+    <licenseUrl>https://github.com/RokitSalad/Helpful.EventStore.EventLogging/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RokitSalad/Helpful.EventStore.EventLogging</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A facade on EventStore allowing the logging of any serialisable object as the Data of a StorableEvent</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Azure, Helpful, dFine, c#, Circuit Breaker, Events</tags>
+    <dependencies>
+		<dependency id="EventStore.Client" version="3.0.0" />
+		<dependency id="Newtonsoft.Json" version="6.0.5" />
+    </dependencies>
+  </metadata>
+</package>
